@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorClear">#00000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <color name="colorDefaultDarkText">#777777</color>
+    <color name="colorDefaultShadowDarkText">#000000</color>
+
+
+    <color name="colorImageCover">#88000000</color>
+    <color name="colorSelectImageCover">#88FF0000</color>
+
+    <color name="colorLightText">#FFFFFFFF</color>
+    <color name="colorGrayText">#FFBBBBBB</color>
+    <color name="colorCapsuleRed">#FFBD0000</color>
+
+    <color name="colorButtonRed">#FFBD0000</color>
+    <color name="colorButtonBlue">#FF0000DD</color>
+
+    <color name="colorTabButtonSelected">#FFFFFFFF</color>
+    <color name="colorTabButtonUnSelected">#FFBBBBBB</color>
+
+    <color name="colorSearchBack">#AA222222</color>
+    <color name="colorSearchTabLine">#FFBD0000</color>
+
+    <color name="colorDarkTransparent">#77000000</color>
+
+    <color name="colorRecordYellow">#FFFFFF00</color>
+    <color name="colorGray">#FFBBBBBB</color>
+
+    <color name="colorDescGray">#55000000</color>
+
+    <color name="colorGreen">#FFFF00FF</color>
+
+</resources>

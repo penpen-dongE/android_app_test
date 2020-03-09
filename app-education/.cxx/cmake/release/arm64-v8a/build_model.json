@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\dev\\myapp\\myapp",
+      "sdkFolder": "C:\\Users\\dongh\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\dev\\myapp\\myapp\\app-education\\build\\intermediates",
+      "gradleModulePathName": ":app-education",
+      "moduleRootFolder": "C:\\dev\\myapp\\myapp\\app-education",
+      "makeFile": "C:\\dev\\myapp\\myapp\\app-education\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\dev\\myapp\\myapp\\.cxx",
+      "cxxFolder": "C:\\dev\\myapp\\myapp\\app-education\\.cxx",
+      "ndkFolder": "C:\\Users\\dongh\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\dev\\myapp\\myapp\\app-education\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "C:\\dev\\myapp\\myapp\\app-education\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a",
+  "jsonFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a",
+  "objFolder": "C:\\dev\\myapp\\myapp\\app-education\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+  "buildCommandFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\release\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cmake\\release\\arm64-v8a\\compile_commands.json"
+}

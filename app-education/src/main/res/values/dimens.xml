@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="test">16dp</dimen>
+    <dimen name="snapshot_ht">50dp</dimen>
+
+
+    <dimen name="bgm_64">64dp</dimen>
+    <dimen name="bgm_32">32dp</dimen>
+    <dimen name="menu_h">50dp</dimen>
+    <dimen name="normal_6">6dp</dimen>
+
+
+
+    
+</resources>
