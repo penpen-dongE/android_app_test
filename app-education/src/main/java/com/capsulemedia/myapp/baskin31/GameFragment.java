@@ -27,10 +27,9 @@ public class GameFragment extends capsuleBaseFragment {
     Scanner sc = new Scanner(System.in);
     Random ran = new Random();
 
-    int N=0, rand_N=1, test;
+    int N=0, rand_N;
     int count = 0;
-    int userNum = 0;
-    int lastNum = 0;
+
     String member[] = {"USER", "COM1", "COM2"};
 
     TextView gameLine;
@@ -60,7 +59,6 @@ public class GameFragment extends capsuleBaseFragment {
         gameLine= view.findViewById(R.id.textView);
         plusButton = view.findViewById(R.id.plusButton);
         doneButton = view.findViewById(R.id.doneButton);
-//        Log.d("TestArray", Arrays.toString(member));
 //        SetListener();
         mixRandom();
         game();
@@ -88,15 +86,9 @@ public class GameFragment extends capsuleBaseFragment {
 //        doneButton.setOnClickListener(Listener);
 //    }
     //멤버 섞는 함수
+    // 멤버 섞는 함수
     public void mixRandom() {
 
-
-        // 문자열 배열 생성
-//        String member[] = { "User","COM1","COM2" };
-//        String rand_member[] = new String[member.length];
-
-        // 복사
-//        System.arraycopy(member, 0, rand_member, 0, member.length);
         // 섞기
         Random rand = new Random();
         for(int x=0;x<20;x++){
@@ -108,101 +100,25 @@ public class GameFragment extends capsuleBaseFragment {
             }
         }
         // 출력( 확인 )
-        gameLine.setText("게임 순서 : " + Arrays.toString(member));
-    }
-
-//    public void onClick(View v){
-//        if (v.getId()==R.id.plusButton){
-//            this.count++;
-//            if(this.count >= 4){
-//                Toast.makeText(getContext(),"Done 버튼을 눌러주세요!",Toast.LENGTH_SHORT).show();
-//                return;
-//            }
-//            this.N++;
-//            this.gameLine.setText(this.N);
-//            if(this.N==31){
-//                Toast.makeText(getContext(),"  GAME OVER !!  ",Toast.LENGTH_SHORT).show();
-//            }
-//        } else if(v.getId() != R.id.doneButton){
-//
-//        }else{
-//            if(this.count == 0){
-//                Toast.makeText(getContext()," + 버튼을 눌러주세요 ! ",Toast.LENGTH_SHORT).show();
-//                return;
-//            }
-//        }
-//    }
-
-//    public void plusClick(){
-//        plusButton.setOnClickListener(new View.OnClickListener(){
-//            public void onClick(View v){
-//
-//                for(i=0; i< member.length ; i++){       // 멤버 체크
-//                    if(member[i]=="USER"){              // 멤버가 USER이면
-//                        count++;
-//                        if(count >3){
-//                            Toast.makeText(getContext(),"Done 버튼을 눌러주세요!",Toast.LENGTH_SHORT).show();
-//                            return;
-//                        }
-//
-//                        doneButton.setOnClickListener(new View.OnClickListener(){
-//                            public void onClick(View v){
-//                                Toast.makeText(getContext(),"턴을 넘깁니다.",Toast.LENGTH_LONG).show();
-//                            }
-//                        });
-//                        if (N == 31){
-//                            gameLine.setText("YOU LOSE!!");
-//                            break;
-//                        }
-////                    }
-//
-//                } else{
-//                    rand_N = (int)Math.random()*3; //1~3 랜덤 숫자
-//                    for(j=0;j<rand_N;j++){
-//                        N++;
-//                        gameLine.setText(member[i]+" : "+N);
-//                        if (N == 31){
-//                            gameLine.setText("YOU LOSE!!");
-//                            break;
-//                        }
-//                    }
-//                }
-//                N++;
-//                gameLine.setText("USER : " + N );
-//            }
-//        });
-//    }
-    public void doneClick(){
-
+        gameLine.setText("게임 순서 : " + Arrays.toString(member)+"\n");
     }
     public void game() {
         int i, j;
+
+
         while (true) {
             for (i = 0; i < member.length; i++) {       // 멤버 체크
-//                if(member[i]=="COM1"){
-//                    Log.i("member 확인!! ㄷㅈㄴㅇㄹ","멤버 확인"+member[i]);
-//                    rand_N = ran.nextInt(3) + 1; //1~3 랜덤 숫자
-//                    Log.i("난수 확인 확인!! ","난수 확인"+rand_N);
-//                    for(j=0;j<rand_N;j++){
-//                        N++;
-//                        gameLine.setText(member[i]+" : "+N);
-//                        if (N == 31){
-//                            gameLine.setText("YOU LOSE!!");
-//                            break;
-//                        }
-//                    }
-//                }
                 if (member[i] == "USER") {              // 멤버가 USER이면
                     Log.i("멤버 순서 확인","user 순서");
                     plusButton.setOnClickListener(new View.OnClickListener() {
                         public void onClick(View v) {
                             count++;
-                            if (count > 3) {
+                            if (count > 3) {            //횟수가 3을 초과하면 Done 버튼 누르기 안내
                                 Toast.makeText(getContext(), "Done 버튼을 눌러주세요!", Toast.LENGTH_SHORT).show();
                                 return;
                             }
                             N++;
-                            gameLine.setText("USER : " + N);
+                            gameLine.setText(gameLine.getText()+"\n"+"USER : " + N);
                         }
                     });
                     doneButton.setOnClickListener(new View.OnClickListener() {
@@ -211,64 +127,29 @@ public class GameFragment extends capsuleBaseFragment {
                                 Toast.makeText(getContext(), "+ 버튼을 눌러주세요!", Toast.LENGTH_SHORT).show();
                                 return;
                             }
-                            count = 0;
+                            count = 0;                  // 횟수 초기화
                         }
                     });
-                    if (N == 31) {
-                        gameLine.setText("YOU LOSE!!");
-//                        break;
+                    if (N == 31) {                      //gameOver check
+                        gameLine.setText(gameLine.getText()+"\n"+"YOU LOSE!!"+"\n");
                         return;
                     }
                 }
-//            for(i=0; i< member.length ; i++){       // 멤버 체크
-//
-//                if(member[i]=="USER"){              // 멤버가 USER이면
-////                    for (int k=0;k<3;k++){          // 3번의 한도 안에서
-//                    if (N <4){
-//                        plusClick();
-//                        return;
-//                    }
-////                        plusClick();                // 플러스 버튼 클릭 > N 증가 후 출력
-//
-//                        doneButton.setOnClickListener(new View.OnClickListener(){
-//                            public void onClick(View v){
-//                                Toast.makeText(getContext(),"턴을 넘깁니다.",Toast.LENGTH_LONG).show();
-//                            }
-//                        });
-//                        if (N == 31){
-//                            gameLine.setText("YOU LOSE!!");
-//                            break;
-//                        }
-////                    }
-//
-//                } else{
-//                    rand_N = (int)Math.random()*3; //1~3 랜덤 숫자
-//                    for(j=0;j<rand_N;j++){
-//                        N++;
-//                        gameLine.setText(member[i]+" : "+N);
-//                        if (N == 31){
-//                            gameLine.setText("YOU LOSE!!");
-//                            break;
-//                        }
-//                    }
-//                }
-//            }
-//            break;
-                else{
-                    rand_N = ran.nextInt(3) + 1; //1~3 랜덤 숫자
+                else{                                            // COM 턴
+                    rand_N = ran.nextInt(3) + 1;          //1~3 랜덤 숫자
                     for(j=0;j<rand_N;j++){
                         Log.i("rand_N 확인","컴퓨터 랜덤 숫자 확인용"+rand_N);
                         N++;
-                        gameLine.setText(member[i]+" : "+N);
-                        if (N == 31){
-                            gameLine.setText("YOU WIN!!");
-//                            break;
+                        gameLine.setText(gameLine.getText()+"\n"+member[i]+" : "+N);
+
+                        if (N == 31){                           //gameOver check
+                            gameLine.setText(gameLine.getText()+"\n"+"YOU WIN!!"+"\n");
                             return;
                         }
                     }
                 }
+
             }
-//            break;
         }
     }
 
