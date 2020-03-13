@@ -2,6 +2,7 @@ package com.capsulemedia.myapp;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -23,8 +24,7 @@ import static com.loopj.android.http.AsyncHttpClient.LOG_TAG;
 
 public class MainActivity extends capsuleBaseActivity {
 
-    MainFragment fragment1;
-    GameFragment fragment2;
+    public static String number ; //모든 클래스에서 접근 가능
 
     //build : IMCAPSULE
     //build password :capsule2014!
@@ -38,11 +38,15 @@ public class MainActivity extends capsuleBaseActivity {
 
     private android.support.v4.app.Fragment mCurrentFragment=null;
 
+    //프레그먼트로부터 데이터 받기
+
+//    public Object getData(){
+//        return number;
+//    }
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
     }
-
 
     public boolean hasPermissions(Context context, String... permissions) {
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && context != null && permissions != null) {
@@ -153,9 +157,6 @@ public class MainActivity extends capsuleBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fragment1 = new MainFragment();
-        fragment2 = new GameFragment();
-
         //set
         sMainActivity=this;
         pagePrc.currentContext=this;
@@ -204,6 +205,8 @@ public class MainActivity extends capsuleBaseActivity {
 
     public void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
+//        Intent intent = getIntent();
+//        number = intent.getExtras().getString("number").toString();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container_main, fragment).commit();
     }
@@ -226,7 +229,8 @@ public class MainActivity extends capsuleBaseActivity {
 
     private void mainActivityStartPrc()
     {
-        pagePrc.baskinPage();
+        pagePrc.baskin31Page();
+
         //pagePrc.setPuzzlePage(4,3);
     }
 

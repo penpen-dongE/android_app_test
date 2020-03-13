@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.capsulemedia.myapp.MainActivity;
 import com.capsulemedia.myapp.R;
+import com.capsulemedia.myapp.baskin31.GameFragment;
 import com.capsulemedia.myapp.baskin31.MainFragment;
 import com.capsulemedia.myapp.category.capsuleBaseFragment;
 import com.capsulemedia.myapp.category.capsuleBaseFragmentInterface;
@@ -178,9 +179,12 @@ public class pagePrc {
         });
     }
 
-    public static void baskinPage(){
+    public static void baskin31Page(){
         final MainFragment fragment=MainFragment.newInstance();
         MainActivity.sMainActivity.setFragment(fragment);
+
+//        Intent intent = new Intent(currentContext, containerActivity.class);
+//        currentContext.startActivity(intent);
 
         ((capsuleBaseFragment)fragment).setOnCreateEndListner(new capsuleBaseFragmentInterface() {
             @Override
@@ -189,6 +193,19 @@ public class pagePrc {
             }
         });
     }
+//    public static void gamePage()
+//    {
+//
+//        final GameFragment fragment=GameFragment.newInstance();
+//        MainActivity.sMainActivity.setFragment(fragment);
+//
+//        ((capsuleBaseFragment)fragment).setOnCreateEndListner(new capsuleBaseFragmentInterface() {
+//            @Override
+//            public void onCreateEndNowReadyToStart() {
+//                ((GameFragment)fragment).startProcess();
+//            }
+//        });
+//    }
 
     public static void setPuzzlePage(final int col,final int row)
     {
@@ -207,7 +224,7 @@ public class pagePrc {
 
 
 
-    public static void popUserPage(final String userId)
+    public static void popUserPqage(final String userId)
     {
 //        final myPageFragment fragment=myPageFragment.newInstance();
 //        currentFragment=fragment;

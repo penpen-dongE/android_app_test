@@ -5,6 +5,7 @@
       "sdkFolder": "C:\\Users\\dongh\\AppData\\Local\\Android\\Sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
+      "ideBuildTargetAbi": "x86_64,x86",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "C:\\dev\\myapp\\myapp\\app-education\\build\\intermediates",
       "gradleModulePathName": ":app-education",
@@ -41,10 +42,8 @@
     "gradleBuildOutputFolder": "C:\\dev\\myapp\\myapp\\app-education\\.cxx\\cxx\\debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
+      "X86_64",
+      "X86"
     ],
     "buildTargetSet": []
   },
