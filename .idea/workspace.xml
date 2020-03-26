@@ -15,17 +15,43 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/.cxx/cmake/release/x86/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/.cxx/cmake/release/x86/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLineAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLineAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/Layout1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/Layout1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MyDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MyDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/VariableScrollSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/VariableScrollSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/gameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/gameInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/pagePrc.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/pagePrc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/res/layout/gameline_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/res/layout/gameline_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/res/layout/layout1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/res/layout/layout1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/res/layout/mydialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/res/layout/mydialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-education/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-education/src/main/res/values/dimens.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -40,67 +66,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4268">
+              <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+              <folding>
+                <element signature="method#makeMember#0;class#GameFragment#0" />
+                <element signature="method#mixRandom#0;class#GameFragment#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MyDialogFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="64" column="73" lean-forward="true" selection-start-line="64" selection-start-column="73" selection-end-line="64" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="221" column="7" selection-start-line="221" selection-start-column="7" selection-end-line="221" selection-end-column="7" />
-              <folding>
-                <element signature="e#3144#4413#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/pagePrc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3542">
-              <caret line="191" column="47" selection-start-line="191" selection-start-column="47" selection-end-line="191" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/PuzzleFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3432">
-              <caret line="179" column="58" selection-start-line="179" selection-start-column="58" selection-end-line="179" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
-              <folding>
-                <element signature="e#1987#2019#0" />
-                <element signature="e#3801#3802#0" expanded="true" />
-                <element signature="e#3861#4278#0" expanded="true" />
-                <element signature="e#4277#4278#0" expanded="true" />
-                <element signature="e#7163#7200#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="3674">
+              <caret line="186" selection-start-line="186" selection-end-line="186" />
             </state>
           </provider>
         </entry>
@@ -110,6 +124,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -121,6 +137,11 @@
       <find>Object</find>
     </findStrings>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\dongh\Desktop\Android_Key\Android_key_200325.jks" />
+    <option name="KEY_ALIAS" value="first_key" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -131,40 +152,86 @@
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/containerActivity.java" />
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseFragment.java" />
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/PuzzleFragment.java" />
-        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml" />
         <option value="$PROJECT_DIR$/app-education/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/OnFragmentInteractionListener.java" />
-        <option value="$PROJECT_DIR$/app-education/build.gradle" />
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/InterfaceExamActivity.java" />
-        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/CellAniInterface.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/gameInterface.java" />
+        <option value="$PROJECT_DIR$/app-education/build.gradle" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/Layout1.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/layout1.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLine.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLineAdapter.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/VariableScrollSpeedLinearLayoutManager.java" />
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/pagePrc.java" />
-        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java" />
-        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/mydialog.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/gameline_item.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/VariableScrollSpeed.java" />
         <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameFragment.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MyDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml" />
+        <option value="$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="width" value="1895" />
+    <option name="x" value="55" />
+    <option name="y" value="-18" />
+    <option name="width" value="1716" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myapp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app-education" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="myapp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app-education" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="myapp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app-education" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="C:\dev\myapp\myapp\app-education" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../imcapsule-android-new-master/imcapsule-android-new-master" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\myapp\myapp\app-education\src\main\res\drawable-en-xhdpi" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.capsulemedia.myapp.baskin31" />
     </key>
@@ -261,15 +328,31 @@
       <option name="project" value="LOCAL" />
       <updated>1584089621002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="baskin31 game logic update">
+      <created>1584094355379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584094355379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.12526652" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12739871" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -277,16 +360,17 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="0" sideWeight="0.4989259" weight="0.3275488" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" sideWeight="0.5522388" visible="true" weight="0.15726681" />
-      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.5293177" weight="0.1419285" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.5117271" weight="0.2570499" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.52398723" weight="0.4219089" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.52665246" weight="0.22776572" />
       <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.32924107" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48827294" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4706823" side_tool="true" weight="0.1681128" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -346,6 +430,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="baskin31 game logic update" />
@@ -357,17 +455,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/res/values-ko/strings.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_my_draw.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/containerForEditTextActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
@@ -381,39 +468,11 @@
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/containerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/activity_container.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -425,39 +484,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/OnFragmentInteractionListener.java" />
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseFragmentInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/InterfaceExamActivity.java" />
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
@@ -471,6 +503,217 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="2858" column="32" selection-start-line="2858" selection-start-column="32" selection-end-line="2858" selection-end-column="32" />
+          <folding>
+            <element signature="e#80857#80858#0" expanded="true" />
+            <element signature="e#80908#80909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/CellClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="109" column="47" lean-forward="true" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/CellAniInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/gameInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/Layout1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/layout1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/VariableScrollSpeedLinearLayoutManager.java" />
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/PuzzleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2090">
+          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/funcs/funcs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/mydialog.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/view/WindowManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_my_draw.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/VariableScrollSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41e1288748dd973d8292042d79676608/recyclerview-v7-28.0.0/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5610">
+          <caret line="638" column="29" lean-forward="true" selection-start-line="638" selection-start-column="29" selection-end-line="638" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameLineAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/gameline_item.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/category/capsuleBaseFragmentInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/containerActivityTransparent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/containerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/containerForEditTextActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/localSaveData/localSavedData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -478,68 +721,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/CellAniInterface.java">
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="-67">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/pagePrc/pagePrc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3542">
-          <caret line="191" column="47" selection-start-line="191" selection-start-column="47" selection-end-line="191" selection-end-column="47" />
+        <state relative-caret-position="-2883">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/puzzle/PuzzleFragment.java">
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MyDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3432">
-          <caret line="179" column="58" selection-start-line="179" selection-start-column="58" selection-end-line="179" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="221" column="7" selection-start-line="221" selection-start-column="7" selection-end-line="221" selection-end-column="7" />
+        <state relative-caret-position="410">
+          <caret line="64" column="73" lean-forward="true" selection-start-line="64" selection-start-column="73" selection-end-line="64" selection-end-column="73" />
           <folding>
-            <element signature="e#3144#4413#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_game.xml">
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/res/layout/fragment_main.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="88">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/GameFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+        <state relative-caret-position="4268">
+          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
           <folding>
-            <element signature="e#1987#2019#0" />
-            <element signature="e#3801#3802#0" expanded="true" />
-            <element signature="e#3861#4278#0" expanded="true" />
-            <element signature="e#4277#4278#0" expanded="true" />
-            <element signature="e#7163#7200#0" />
+            <element signature="method#makeMember#0;class#GameFragment#0" />
+            <element signature="method#mixRandom#0;class#GameFragment#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3674">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-education/src/main/java/com/capsulemedia/myapp/baskin31/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

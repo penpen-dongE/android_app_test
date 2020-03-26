@@ -3,29 +3,18 @@ package com.capsulemedia.myapp.pagePrc;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
-import android.util.Log;
 import android.view.Gravity;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import com.capsulemedia.myapp.MainActivity;
-import com.capsulemedia.myapp.R;
-import com.capsulemedia.myapp.baskin31.GameFragment;
 import com.capsulemedia.myapp.baskin31.MainFragment;
 import com.capsulemedia.myapp.category.capsuleBaseFragment;
 import com.capsulemedia.myapp.category.capsuleBaseFragmentInterface;
 import com.capsulemedia.myapp.drawEx.MyDrawFragment;
-import com.capsulemedia.myapp.localSaveData.localSavedData;
 import com.capsulemedia.myapp.puzzle.PuzzleFragment;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -183,9 +172,6 @@ public class pagePrc {
         final MainFragment fragment=MainFragment.newInstance();
         MainActivity.sMainActivity.setFragment(fragment);
 
-//        Intent intent = new Intent(currentContext, containerActivity.class);
-//        currentContext.startActivity(intent);
-
         ((capsuleBaseFragment)fragment).setOnCreateEndListner(new capsuleBaseFragmentInterface() {
             @Override
             public void onCreateEndNowReadyToStart() {
@@ -193,19 +179,6 @@ public class pagePrc {
             }
         });
     }
-//    public static void gamePage()
-//    {
-//
-//        final GameFragment fragment=GameFragment.newInstance();
-//        MainActivity.sMainActivity.setFragment(fragment);
-//
-//        ((capsuleBaseFragment)fragment).setOnCreateEndListner(new capsuleBaseFragmentInterface() {
-//            @Override
-//            public void onCreateEndNowReadyToStart() {
-//                ((GameFragment)fragment).startProcess();
-//            }
-//        });
-//    }
 
     public static void setPuzzlePage(final int col,final int row)
     {
@@ -224,7 +197,7 @@ public class pagePrc {
 
 
 
-    public static void popUserPqage(final String userId)
+    public static void popUserPage(final String userId)
     {
 //        final myPageFragment fragment=myPageFragment.newInstance();
 //        currentFragment=fragment;

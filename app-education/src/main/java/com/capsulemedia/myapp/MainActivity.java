@@ -2,19 +2,17 @@ package com.capsulemedia.myapp;
 
 import android.Manifest;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.os.Bundle;
 import android.util.Log;
 
 import com.capsulemedia.myapp.baskin31.GameFragment;
-import com.capsulemedia.myapp.baskin31.MainFragment;
 import com.capsulemedia.myapp.category.capsuleBaseActivity;
 import com.capsulemedia.myapp.funcs.funcs;
 import com.capsulemedia.myapp.pagePrc.pagePrc;
@@ -24,7 +22,8 @@ import static com.loopj.android.http.AsyncHttpClient.LOG_TAG;
 
 public class MainActivity extends capsuleBaseActivity {
 
-    public static String number ; //모든 클래스에서 접근 가능
+    public static String numberTrans ; //모든 클래스에서 접근 가능
+    GameFragment gameFragment;
 
     //build : IMCAPSULE
     //build password :capsule2014!
@@ -37,6 +36,7 @@ public class MainActivity extends capsuleBaseActivity {
     public static MainActivity sMainActivity=null;
 
     private android.support.v4.app.Fragment mCurrentFragment=null;
+
 
     //프레그먼트로부터 데이터 받기
 
@@ -77,7 +77,8 @@ public class MainActivity extends capsuleBaseActivity {
             Log.d(LOG_TAG,"mayRequestPermissions request");
             ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
 
-            mPermissionChecked=false;
+//            mPermissionChecked=false;
+            mPermissionChecked=true;
             new Thread(new Runnable() {
                 @Override public void run() {
 
@@ -179,7 +180,11 @@ public class MainActivity extends capsuleBaseActivity {
         {
             getWindow().setStatusBarColor(getApplication().getResources().getColor(R.color.colorBlack)); //status bar or the time bar at the top
         }
+
+
+
     }
+
 
 //    public void setFragment(Fragment fragment)
 //    {
@@ -195,7 +200,7 @@ public class MainActivity extends capsuleBaseActivity {
     public void setFragment(Fragment fragment)
     {
 
-        mCurrentFragment=fragment;
+//        mCurrentFragment=fragment;
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container_main, fragment);
@@ -204,11 +209,18 @@ public class MainActivity extends capsuleBaseActivity {
     }
 
     public void replaceFragment(Fragment fragment) {
+
+        GameFragment gameFragment = new GameFragment();
+        Bundle bundle = new Bundle(1);
+        bundle.putString("number", numberTrans);
+        gameFragment.setArguments(bundle);
+        Log.i("메인 프래그먼트의 number 값","activity에서 : "+numberTrans);
+
         FragmentManager fragmentManager = getSupportFragmentManager();
-//        Intent intent = getIntent();
-//        number = intent.getExtras().getString("number").toString();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.fragment_container_main, fragment).commit();
+
+        fragmentTransaction.replace(R.id.fragment_container_main, fragment);
+        fragmentTransaction.add(R.id.fragment_container_main,gameFragment).commit();
     }
 
 //    public void addFragment(Fragment fragment)
@@ -226,7 +238,11 @@ public class MainActivity extends capsuleBaseActivity {
 //        fragmentTransaction.commit();
 //    }
 
+    public void dataTransfer(String n){
 
+        numberTrans = n;
+
+    }
     private void mainActivityStartPrc()
     {
         pagePrc.baskin31Page();

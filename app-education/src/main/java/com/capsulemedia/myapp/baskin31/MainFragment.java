@@ -1,11 +1,8 @@
 package com.capsulemedia.myapp.baskin31;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentManager;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -14,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.capsulemedia.myapp.MainActivity;
@@ -24,11 +20,14 @@ import com.capsulemedia.myapp.category.capsuleBaseFragment;
 
 public class MainFragment extends capsuleBaseFragment {
 
-    //private Object number;
+    MainActivity mActivity;
+    private static String number;
+//    String number;
     EditText numInput;
 
     Button startButton;
-    private static String number;
+    private static final String ARG_number = "number";
+    private String mParam1;
 
 //    private FragmentListener fragmentListener;
 
@@ -38,9 +37,9 @@ public class MainFragment extends capsuleBaseFragment {
 
     public static MainFragment newInstance() {
         MainFragment fragment = new MainFragment();
-//        Bundle args = new Bundle();
-//        args.putString(number, number);
-//        fragment.setArguments(args);
+        Bundle args = new Bundle();
+        args.putString("ARG_number", number);
+        fragment.setArguments(args);
         return fragment;
     }
 
@@ -48,6 +47,9 @@ public class MainFragment extends capsuleBaseFragment {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            mParam1 = getArguments().getString(ARG_number);
+        }
     }
 
     @Override
@@ -57,21 +59,19 @@ public class MainFragment extends capsuleBaseFragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main, container, false);
 
+        Log.v("Test","Param1 : "+mParam1);
         numInput = view.findViewById(R.id.numInput);
         startButton = view.findViewById(R.id.startButton);
 
         startButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
 
-                Log.w("Test","스타트 버튼 클릭 전! Value_check: " +number);
-                // int num = Integer.parseInt(number);
-//                fragmentListener.onTextChange(number);
-                // mainFragment > mainActivity 로 데이터 보내기
+                Log.i("Test","스타트 버튼 클릭 전! Value_check: " +number);
+
+                mActivity.dataTransfer(number);
 
                 // getActivity()로 MainActivity의 replaceFragment를 불러옴.
-               // ((MainActivity)getActivity()).replaceAndDataFragment(MainFragment.newInstance(number));
                 ((MainActivity)getActivity()).replaceFragment(GameFragment.newInstance());
-                // 새로 불러올 Fragment의 Instance를 Main으로 전달
             }
         });
 
@@ -88,7 +88,6 @@ public class MainFragment extends capsuleBaseFragment {
     public void startProcess() {
 
         numCheck();
-//        num = numInput.getText().toString();
         Log.d("Test","start_process 시작! Value_check: " +number);
 //        gameStart();
 
@@ -118,9 +117,7 @@ public class MainFragment extends capsuleBaseFragment {
                 number = numInput.getText().toString();
 
                 Log.d("Test","텍스트 입력 후! Value_check: " +number);
-//                if (fragmentListener!=null){
-//                    fragmentListener.onTextChange(editable.toString());
-//                }
+
             }
         });
 
@@ -153,16 +150,8 @@ public class MainFragment extends capsuleBaseFragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-//        if(getActivity() != null && getActivity() instanceof MainActivity){
-//            number = ((MainActivity)getActivity()).getData();
-//        }
+        mActivity = (MainActivity)context;
 
-//        if(context instanceof FragmentListener){
-//            fragmentListener = (FragmentListener) context;
-//        } else {
-//            throw new RuntimeException(context.toString()
-//                    + "must implement FragmentListener");
-//        }
     }
     @Override
     public void onDetach() {
