@@ -38,11 +38,6 @@ public class MainActivity extends capsuleBaseActivity {
     private android.support.v4.app.Fragment mCurrentFragment=null;
 
 
-    //프레그먼트로부터 데이터 받기
-
-//    public Object getData(){
-//        return number;
-//    }
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
@@ -200,7 +195,7 @@ public class MainActivity extends capsuleBaseActivity {
     public void setFragment(Fragment fragment)
     {
 
-//        mCurrentFragment=fragment;
+        mCurrentFragment=fragment;
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container_main, fragment);

@@ -29,15 +29,16 @@ public class GameFragment extends capsuleBaseFragment {
 
     Random ran = new Random();
 
-    private int N = 0;
-    int rand_N;
+    private int N = 0;   // 결과 숫자 변수
+    int rand_N;          // COM 랜덤 숫자 변수
     int count,mcount = 0;
-    String nString;
-    String memberN;     // 사용자가 입력한 멤버 숫자
 
+    // 사용자가 입력한 멤버 숫자
+    String nString;
+    String memberN;
     int memberNumber;
 
-    String[] member;
+    String[] member;    // 플레이어 리스트
 
     TextView gameLine;
     Button plusButton;
@@ -90,14 +91,6 @@ public class GameFragment extends capsuleBaseFragment {
             }
         };
         mHandler = new Handler();
-
-        //리싸이클러뷰 지연시키기
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                recyclerView.scrollToPosition(adapter.getItemCount()-1);
-//            }
-//        },200);
 
         gameLine= view.findViewById(R.id.textView);
         plusButton = view.findViewById(R.id.plusButton);
@@ -164,6 +157,7 @@ public class GameFragment extends capsuleBaseFragment {
 
         Log.i("member 배열에 값 넣기","멤버는!? : "+Arrays.toString(member));
     }
+
     // 멤버 섞는 함수
     public void mixRandom() {
 
@@ -193,6 +187,7 @@ public class GameFragment extends capsuleBaseFragment {
             game();
         }
     };
+
     public void game() {
         if(N < 31){
             mTurn(mcount);
@@ -252,14 +247,11 @@ public class GameFragment extends capsuleBaseFragment {
             gameLine.setText("!! GAME-OVER !!");
             MyDialogFragment e = MyDialogFragment.getInstance();
             e.show(getFragmentManager(), MyDialogFragment.TAG_MY_DIALOG);
-
-
         }
 //        else{
 //            Toast.makeText(getContext(),"현재 숫자는 "+N,Toast.LENGTH_SHORT).show();
 //        }
     }
-
 
     @Override
     public void onAttach(Context context) {

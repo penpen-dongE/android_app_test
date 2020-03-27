@@ -22,14 +22,12 @@ public class MainFragment extends capsuleBaseFragment {
 
     MainActivity mActivity;
     private static String number;
-//    String number;
     EditText numInput;
 
     Button startButton;
     private static final String ARG_number = "number";
     private String mParam1;
 
-//    private FragmentListener fragmentListener;
 
     public MainFragment() {
         // Required empty public constructor
@@ -89,7 +87,6 @@ public class MainFragment extends capsuleBaseFragment {
 
         numCheck();
         Log.d("Test","start_process 시작! Value_check: " +number);
-//        gameStart();
 
     }
 
@@ -120,44 +117,20 @@ public class MainFragment extends capsuleBaseFragment {
 
             }
         });
-
     }
-
-//    public interface FragmentListener {
-//        // TODO: Update argument type and name
-//        void onTextChange(String s);
-//    }
 
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-//        if(getActivity() instanceof FragmentListener){
-//            this.fragmentListener = (FragmentListener) getActivity();
-//        }
     }
-
-//    public void gameStart(){
-//
-//        startButton.setOnClickListener(new View.OnClickListener(){
-//            public void onClick(View view){
-//
-//                    // getActivity()로 MainActivity의 replaceFragment를 불러옵니다.
-//                ((MainActivity)getActivity()).replaceFragment(GameFragment.newInstance());
-//                // 새로 불러올 Fragment의 Instance를 Main으로 전달
-//            }
-//        });
-//    }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         mActivity = (MainActivity)context;
-
     }
     @Override
     public void onDetach() {
         super.onDetach();
-//        fragmentListener = null;
-
     }
     @Override
     public void onResume() {

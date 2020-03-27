@@ -70,10 +70,8 @@ public class MyDialogFragment extends DialogFragment {
 
                 dismissDialog();
 //                ((MainActivity)getActivity()).setFragment(MainFragment.newInstance());
-
                 ((MainActivity)getActivity()).finish();
                 restartSelf();
-
 
             }
         });
